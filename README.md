@@ -78,21 +78,25 @@ tmux could split the current window to be several panes.
 
 4. Adjust the location of boundary among panes: Ctrl+x then hit Ctrl+Arrow-up/down/right/left for several times
 
-5. Enlarge the current pane to fullscreen: Ctrl+x then z
+5. Close the current pane:
+
+       exit
+
+6. Enlarge the current pane to fullscreen: Ctrl+x then z
 
 To resume: Ctrl+x then z
 
-6. Scroll up/down a pane: Ctrl+x then PageUp/PageDown
+7. Scroll up/down a pane: Ctrl+x then PageUp/PageDown
 
 To exit the scrolling mode: Enter
 
 P.S. Mouse wheel can't scroll the pane. Instead of that, it can show the command history.
 
-7. Home and End are also deactivated in tmux panes.
+8. Home and End are also deactivated in tmux panes.
 
 Alternatively, use Ctrl+A and Ctrl+E as Home and End.
 
-8. copy text in tmux:
+9. Copy text in tmux:
 
 If it is one-line text, as usual, just select the text and then copy.
 
