@@ -58,7 +58,7 @@ As you create a session, there is a window.
 
 3. Close the current window:
 
-      exit
+       exit
 
 
 tmux pane
