@@ -1,10 +1,85 @@
 # tmux_config
-My tmux settings:
 
 I change the hot-key to be Ctrl+x, instead of Ctrl+b, which has a further seperation on a keyboard.
 
-Moreover, I change parts of key to be vim-like style: 
+Moreover, I change parts of key to be vim-like style.
 
-horizontally split a plane - s
+tmux session
+============
 
-vertically split a plane - v 
+1. Quickly create a tmux session: 
+ 
+        tmux
+
+In this case, the created sessions will be named by numbers.
+
+To rename a session: Ctrl+x then $
+
+2. Create a named tmux session: 
+
+        tmux new-session -s session-name  [OR]
+        tmux new -s session-name
+
+3. Check current sessions:
+
+        tmux list-sessions  [OR]
+        tmux ls
+        
+4. Exit the current session (as the way you logout on the terminal):
+
+        exit
+
+5. Leave the current session but keep your jobs running: Ctrl+x then d (detach)
+
+To resume the session:
+
+        tmux attach-session -t session-name  [OR]
+        tmux a -t session-name
+        
+6. Stop a session:
+
+        tmux kill-session -t session-name
+        
+7. Stop all sessions:
+
+        tmux kill-server
+    
+
+tmux window
+============
+
+tmux provides an environment of mulitple workspace/desktops, which are called "windows".
+
+As you create a session, there is a window.
+
+1. Create a new window: Ctrl+x then c
+
+2. Move to next/previous window: Ctrl+x then n/p
+
+3. Close the current window:
+
+      exit
+
+
+tmux pane
+============
+
+As you create a window, there is a pane.
+
+tmux could split the current window to be several panes.
+
+1. Split the window horizontally: Ctrl+x then s
+
+2. Split the window vertically: Ctrl+x then v 
+
+3. Move around panes: Ctrl+x then Arrow-up/down/right/left or h/j/k/l
+
+4. Scroll up/down a pane: Ctrl+x then PageUp/PageDown
+
+To exit the scrolling mode: Enter
+
+P.S. Mouse wheel can't scroll the pane. Instead of that, it can show the command history.
+
+5. Home and End are also deactivated in tmux panes.
+
+Alternatively, use Ctrl+A and Ctrl+E as Home and End.
