@@ -4,6 +4,8 @@ I change the hot-key to be Ctrl+x, instead of Ctrl+b, which has a further sepera
 
 Moreover, I change parts of keys to be vim-like style.
 
+To activate these settings, put ".tmux.config" at your home directory.
+
 tmux session
 ============
 
