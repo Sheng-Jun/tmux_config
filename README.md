@@ -4,6 +4,10 @@ I change the hot-key to be Ctrl+x, instead of Ctrl+b, which has a further sepera
 
 Moreover, I change parts of keys to be vim-like style.
 
+One of the important features of tmux is that the configuration of split panes will be kept after reattaching.
+
+tmux is also allowed multiple people to attach the same tmux session to work together.
+
 To activate these settings, put ".tmux.config" at your home directory.
 
 tmux session
@@ -37,7 +41,7 @@ To resume the session:
 
         tmux attach-session -t session-name  [OR]
         tmux a -t session-name
-        
+
 6. Stop a session:
 
         tmux kill-session -t session-name
@@ -90,7 +94,9 @@ To resume: Ctrl+x then z
 
 To exit the scrolling mode: Enter
 
-P.S. Mouse wheel can't scroll the pane. Instead of that, it can show the command history.
+P.S. Mouse wheel can't scroll the pane, before enter the scrolling mode.
+
+Instead of that, it can show the command history.
 
 8. Home and End are also deactivated in tmux panes.
 
