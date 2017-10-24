@@ -90,11 +90,11 @@ tmux could split the current window to be several panes.
 
 To resume: Ctrl+x then z
 
-7. Scroll up/down a pane: Ctrl+x then PageUp/PageDown
+7. Scroll up/down in a pane: Ctrl+x then PageUp/PageDown
 
 To exit the scrolling mode: Enter
 
-P.S. Mouse wheel can't scroll the pane, before enter the scrolling mode.
+P.S. Mouse wheel can't scroll, before enter the scrolling mode.
 
 Instead of that, it can show the command history.
 
