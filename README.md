@@ -89,3 +89,19 @@ P.S. Mouse wheel can't scroll the pane. Instead of that, it can show the command
 7. Home and End are also deactivated in tmux panes.
 
 Alternatively, use Ctrl+A and Ctrl+E as Home and End.
+
+8. copy text in tmux:
+
+If it is one-line text, as usual, just select the text and then copy.
+
+If it was not, we can (1) enter the copy mode: Ctrl+x then \[
+
+(2) move the focus to the text, 
+
+(3) hit Space at the begginning location of the text, 
+
+(4) move to select whole text, 
+
+(5) hit Enter to declare the end of the text, 
+
+(6) Ctrl+x then \] to paste somewhere you like.
