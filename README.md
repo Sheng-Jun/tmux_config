@@ -74,7 +74,7 @@ tmux could split the current window to be several panes.
 
 2. Split the window vertically: Ctrl+x then v 
 
-3. Move around panes: Ctrl+x then Arrow-up/down/right/left or h/j/k/l
+3. Move to other panes: Ctrl+x then Arrow-up/down/right/left or h/j/k/l
 
 4. Adjust the location of boundary among panes: Ctrl+x then hit Ctrl+Arrow-up/down/right/left for several times
 
