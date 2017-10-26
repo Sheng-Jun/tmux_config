@@ -4,7 +4,7 @@ One of the important features of tmux is that the configuration of split panes w
 
 tmux is also allowed multiple people to attach the same tmux session to work together.
 
-I change the hot-key to be **Ctrl+x**, instead of Ctrl+b, which has a further seperation on a keyboard.
+I change the hot-key to be **Ctrl+x**, instead of Ctrl+b, which has a shorter seperation on a keyboard.
 
 Moreover, I change parts of keys to be vim-like style.
 
