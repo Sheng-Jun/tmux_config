@@ -1,12 +1,12 @@
 # tmux_config
 
-I change the hot-key to be Ctrl+x, instead of Ctrl+b, which has a further seperation on a keyboard.
-
-Moreover, I change parts of keys to be vim-like style.
-
 One of the important features of tmux is that the configuration of split panes will be kept after reattaching.
 
 tmux is also allowed multiple people to attach the same tmux session to work together.
+
+I change the hot-key to be **Ctrl+x**, instead of Ctrl+b, which has a further seperation on a keyboard.
+
+Moreover, I change parts of keys to be vim-like style.
 
 To activate these settings, put ".tmux.config" at your home directory.
 
